@@ -1,0 +1,12 @@
+:root {
+  --border-color: black;
+  --border: 0px;
+  --blur: 0px;
+}
+img {
+  width: 80%;
+  height: 60%;
+  margin-top: 2rem;
+  filter: blur(var(--blur));
+  border: var(--border) solid var(--border-color);
+}
